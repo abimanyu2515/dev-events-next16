@@ -1,0 +1,42 @@
+export const events = [
+  {
+    title: "Next.js Conf 2024",
+    image: "/images/event1.png",
+    slug: "nextjs-conf-2024",
+    location: "San Francisco, CA",
+    date: "October 29, 2024",
+    time: "9:00 AM PST",
+  },
+  {
+    title: "GraphQL Summit",
+    image: "/images/event2.png",
+    slug: "graphql-summit-2024",
+    location: "Online",
+    date: "November 12-13, 2024",
+    time: "10:00 AM EST",
+  },
+  {
+    title: "DevOps Days Chicago",
+    image: "/images/event3.png",
+    slug: "devops-days-chicago-2024",
+    location: "Chicago, IL",
+    date: "September 25-26, 2024",
+    time: "8:30 AM CST",
+  },
+  {
+    title: "AI Hackathon: Build the Future",
+    image: "/images/event4.png",
+    slug: "ai-hackathon-2024",
+    location: "Austin, TX",
+    date: "December 7-8, 2024",
+    time: "Starts 6:00 PM CST",
+  },
+  {
+    title: "Web3 Con",
+    image: "/images/event5.png",
+    slug: "web3-con-2024",
+    location: "Miami, FL",
+    date: "December 10-12, 2024",
+    time: "9:00 AM EST",
+  },
+];
