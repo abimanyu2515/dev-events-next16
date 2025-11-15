@@ -322,13 +322,8 @@ void main() {
           ];
         }
 
-        try {
-          renderer.render({ scene: mesh });
-          animationIdRef.current = requestAnimationFrame(loop);
-        } catch (error) {
-          console.warn("WebGL rendering error:", error);
-          return;
-        }
+        renderer.render({ scene: mesh });
+        animationIdRef.current = requestAnimationFrame(loop);
       };
 
       window.addEventListener("resize", updatePlacement);
@@ -445,7 +440,7 @@ void main() {
   return (
     <div
       ref={containerRef}
-      className={`pointer-events-none relative z-[3] h-full w-full overflow-hidden ${className}`.trim()}
+      className={`pointer-events-none relative z-3 h-full w-full overflow-hidden ${className}`.trim()}
     />
   );
 };
